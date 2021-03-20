@@ -1,0 +1,33 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "UUAG",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{ "include": "source.haskell" }
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.uuag",
+				"match": "\\b(DATA|ATTR|TYPE|SEM|INCLUDE|DERIVING)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.uuag",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.uuag",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.uuag"
+}
