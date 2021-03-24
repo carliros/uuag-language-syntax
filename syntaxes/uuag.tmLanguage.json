@@ -8,13 +8,15 @@
 		{
 			"include": "#strings"
 		},
-		{ "include": "source.haskell" }
+		{ 
+			"include": "source.haskell" 
+		}
 	],
 	"repository": {
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.uuag",
-				"match": "\\b(DATA|ATTR|TYPE|SEM|INCLUDE|DERIVING)\\b"
+				"match": "\\b(DATA|ATTR|TYPE|SEM|INCLUDE|DERIVING|imports|SET|PRAGMA)\\b"
 			}]
 		},
 		"strings": {
