@@ -16,7 +16,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.uuag",
-				"match": "\\b(DATA|ATTR|TYPE|SEM|INCLUDE|DERIVING|imports|SET|PRAGMA)\\b"
+				"match": "\\b(DATA|ATTR|TYPE|SEM|INCLUDE|DERIVING|imports|SET|PRAGMA|data|attr|type|sem|include|deriving|set|pragma)\\b"
 			}]
 		},
 		"strings": {
