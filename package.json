@@ -2,7 +2,8 @@
     "name": "uuag-language-syntax",
     "displayName": "uuag",
     "description": "Utretch University Attribute Grammars (uuag) language syntax highlight",
-    "version": "0.0.1",
+    "publisher": "edo-codes",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.54.0"
     },
